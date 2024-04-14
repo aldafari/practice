@@ -7,5 +7,10 @@ RSpec.describe SimpleCalculation do
     it "correctly adds two numbers" do
       expect(SimpleCalculation.add(2, 3)).to eq(5)
     end
+
+    describe ".add" do
+      it "correctly adds negative numbers" do
+        expect(SimpleCalculation.add(5, -2)).to eq(3)
+      end
   end
 end
