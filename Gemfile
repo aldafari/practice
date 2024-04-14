@@ -2,5 +2,6 @@
 
 source "https://rubygems.org"
 
-gem 'respec', '~> 3.10'
+gem 'rspec', '~> 3.10'
+
 # gem "rails"
