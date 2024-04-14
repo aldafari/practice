@@ -4,5 +4,3 @@ class SimpleCalculation
     a + b
   end
 end
-
-#Inline test statements
