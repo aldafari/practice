@@ -11,3 +11,9 @@ if SimpleCalculation.add(2, 3) == 5
 else
   puts "Test failed: Addition is incorrect."
 end
+
+if SimpleCalculation.add(5, -2) == 3
+  puts "Test passed: Addition with negative number is correct."
+else
+  puts "Test failed: Addition with negative number is incorrect."
+end
