@@ -1,4 +1,4 @@
-# spec/simple_calculation.rb
+# spec/simple_calculation_spec.rb
 require 'simple_calculation'
 
 RSpec.describe SimpleCalculation do
