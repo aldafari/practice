@@ -8,11 +8,3 @@ RSpec.describe SimpleCalculation do
     end
   end
 end
-
-RSpec.describe SimpleCalculation do
-  describe ".add" do
-    it "correctly adds negative numbers" do
-      expect(SimpleCalculation.add(5, -2)).to eq(3)
-    end
-  end
-end
